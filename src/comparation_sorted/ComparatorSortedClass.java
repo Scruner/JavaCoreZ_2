@@ -23,14 +23,14 @@ public class ComparatorSortedClass {
     list.add(employeeComparator3);
     list.add(employeeComparator4);
     list.add(employeeComparator5);
-    System.out.println("Перед сортировкой");
+    System.out.println("РџРµСЂРµРґ СЃРѕСЂС‚РёСЂРѕРІРєРѕР№");
     for (EmployeeComparator employeeComparator : list) {
       System.out.println(employeeComparator);
     }
-    //В Comparator-е мы можем добавить второй параметр в его метод sort() в
-    //котором укажем параметр, по которому хотим отсортировать список
+    //Р’ Comparator-Рµ РјС‹ РјРѕР¶РµРј РґРѕР±Р°РІРёС‚СЊ РІС‚РѕСЂРѕР№ РїР°СЂР°РјРµС‚СЂ РІ РµРіРѕ РјРµС‚РѕРґ sort() РІ
+    //РєРѕС‚РѕСЂРѕРј СѓРєР°Р¶РµРј РїР°СЂР°РјРµС‚СЂ, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ С…РѕС‚РёРј РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃРїРёСЃРѕРє
     list.sort(new EmployeeComparator());
-    System.out.println("После сортировки");
+    System.out.println("РџРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё");
     for (EmployeeComparator employeeComparator : list) {
       System.out.println(employeeComparator);
     }
@@ -99,7 +99,7 @@ class EmployeeComparator implements Comparator<EmployeeComparator> {
   @Override
   public int compare(EmployeeComparator employee1,
       EmployeeComparator employee2) {
-    //Вариант 1 (под тип int)
+    //Р’Р°СЂРёР°РЅС‚ 1 (РїРѕРґ С‚РёРї int)
 //    if (employee1.id == employee2.id) {
 //      return 0;
 //    } else if (employee1.id < employee2.id) {
@@ -108,10 +108,10 @@ class EmployeeComparator implements Comparator<EmployeeComparator> {
 //      return 1;
 //    }
 
-    //Вариант 2 (под тип String)
+    //Р’Р°СЂРёР°РЅС‚ 2 (РїРѕРґ С‚РёРї String)
 //    return employee1.name.compareTo(employee2.name);
 
-    //Вариант 3 (под поле salary. Вычитанием)
+    //Р’Р°СЂРёР°РЅС‚ 3 (РїРѕРґ РїРѕР»Рµ salary. Р’С‹С‡РёС‚Р°РЅРёРµРј)
     return employee1.salary - employee2.salary;
   }
 }
