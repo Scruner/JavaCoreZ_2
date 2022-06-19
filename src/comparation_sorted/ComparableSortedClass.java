@@ -18,12 +18,12 @@ public class ComparableSortedClass {
     list.add(employeeComparable3);
     list.add(employeeComparable4);
     list.add(employeeComparable5);
-    System.out.println("Перед сортировкой");
+    System.out.println("ГЏГҐГ°ГҐГ¤ Г±Г®Г°ГІГЁГ°Г®ГўГЄГ®Г©");
     for (EmployeeComparable employeeComparable : list) {
       System.out.println(employeeComparable);
     }
     Collections.sort(list);
-    System.out.println("После сортировки");
+    System.out.println("ГЏГ®Г±Г«ГҐ Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ");
     for (EmployeeComparable employeeComparable : list) {
       System.out.println(employeeComparable);
     }
@@ -88,7 +88,7 @@ class EmployeeComparable implements Comparable<EmployeeComparable> {
 
   @Override
   public int compareTo(EmployeeComparable anotherEmployeeComparable) {
-    //Вариант 1
+   //Р’Р°СЂРёР°РЅС‚ 1
 //    if (this.id > anotherEmployeeComparable.id) {
 //      return 1;
 //    } else if (this.id < anotherEmployeeComparable.id) {
@@ -96,17 +96,17 @@ class EmployeeComparable implements Comparable<EmployeeComparable> {
 //    } else {
 //      return 0;
 //    }
-    //Вариант 2
+    //Р’Р°СЂРёР°РЅС‚ 2
 //    return this.id - anotherEmployeeComparable.id;
 
-    //Вариант 3 (когда сравниваемы тип имплементирует интерфейс Comparable)
+    //Р’Р°СЂРёР°РЅС‚ 3 (РєРѕРіРґР° СЃСЂР°РІРЅРёРІР°РµРјС‹ С‚РёРї РёРјРїР»РµРјРµРЅС‚РёСЂСѓРµС‚ РёРЅС‚РµСЂС„РµР№СЃ Comparable)
 //    return this.id.compareTo(anotherEmployeeComparable.id);
 
-    //Вариант 4 (сортировка по другому полю (по имени))
+    //Р’Р°СЂРёР°РЅС‚ 4 (СЃРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РґСЂСѓРіРѕРјСѓ РїРѕР»СЋ (РїРѕ РёРјРµРЅРё))
 //    return this.name.compareTo(anotherEmployeeComparable.name);
 
-    //Вариант 5 (сравниваем сначала один параметр (имена), если они
-    // одинаковые, сортируем по фамилии)
+    //Р’Р°СЂРёР°РЅС‚ 5 (СЃСЂР°РІРЅРёРІР°РµРј СЃРЅР°С‡Р°Р»Р° РѕРґРёРЅ РїР°СЂР°РјРµС‚СЂ (РёРјРµРЅР°), РµСЃР»Рё РѕРЅРё
+    // РѕРґРёРЅР°РєРѕРІС‹Рµ, СЃРѕСЂС‚РёСЂСѓРµРј РїРѕ С„Р°РјРёР»РёРё)
     int rsl = this.name.compareTo(anotherEmployeeComparable.name);
     if (rsl == 0) {
       rsl = this.surname.compareTo(anotherEmployeeComparable.surname);
