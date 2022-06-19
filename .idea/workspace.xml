@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/generics/TypeErasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/TypeErasure.java" afterDir="false" />
+    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit UTF-8">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparation_sorted/ComparableSortedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparation_sorted/ComparableSortedClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +36,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TypeErasure">
+  <component name="RunManager" selected="Application.ComparableSortedClass">
+    <configuration name="ComparableSortedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparation_sorted.ComparableSortedClass" />
+      <module name="JavaCoreZ_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparation_sorted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParameterizedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.ParameterizedClass" />
       <module name="JavaCoreZ_2" />
@@ -93,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generics.GenericClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericClass1" />
-      <module name="JavaCoreZ_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableSortedClass" />
         <item itemvalue="Application.TypeErasure" />
         <item itemvalue="Application.ParameterizedMethod" />
         <item itemvalue="Application.ParameterizedClass2" />
         <item itemvalue="Application.ParameterizedClass" />
-        <item itemvalue="Application.generics.GenericClass1" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655580063106</updated>
       <workItem from="1655580065017" duration="2084000" />
-      <workItem from="1655650908074" duration="10817000" />
+      <workItem from="1655650908074" duration="11111000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655666746889</created>
@@ -134,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655666746889</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit UTF-8">
+      <created>1655667124683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655667124683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="first commit UTF-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit UTF-8" />
   </component>
 </project>
