@@ -4,15 +4,15 @@ public class ParameterizedClass2 {
 
   public static void main(String[] args) {
     Pair<String, Integer> pair1 = new Pair<>("privet", 23);
-    System.out.println("Значения пары: value1 = " + pair1.getFirstValue() +
+    System.out.println("Р—РЅР°С‡РµРЅРёСЏ РїР°СЂС‹: value1 = " + pair1.getFirstValue() +
         ", value2 = " + pair1.getSecondValue());
 
     Pair<Integer, Double> pair2 = new Pair<>(23, 172.3);
-    System.out.println("Значения пары: value1 = " + pair2.getFirstValue() +
+    System.out.println("Р—РЅР°С‡РµРЅРёСЏ РїР°СЂС‹: value1 = " + pair2.getFirstValue() +
         ", value2 = " + pair2.getSecondValue());
 
-    PairWithOneType<String> pair3 = new PairWithOneType<>("За ВДВ!!!", "Слава ВДВ!!!");
-    System.out.println("Значения пары: value1 = " + pair3.getFirstValue() +
+    PairWithOneType<String> pair3 = new PairWithOneType<>("Р—Р° Р’Р”Р’!!!", "РЎР»Р°РІР° Р’Р”Р’!!!");
+    System.out.println("Р—РЅР°С‡РµРЅРёСЏ РїР°СЂС‹: value1 = " + pair3.getFirstValue() +
         ", value2 = " + pair3.getSecondValue());
   }
 }
