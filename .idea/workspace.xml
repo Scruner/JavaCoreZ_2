@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCoreZ_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparation_sorted/ComparableAndComparatorTogetherSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparation_sorted/ComparableSortedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparation_sorted/ComparatorSortedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparation_sorted/SortedClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/GenericClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/ParameterizedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/ParameterizedClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/ParameterizedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/TypeErasure.java" afterDir="false" />
+    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/generics/TypeErasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/TypeErasure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,8 +125,16 @@
       <option name="presentableId" value="Default" />
       <updated>1655580063106</updated>
       <workItem from="1655580065017" duration="2084000" />
-      <workItem from="1655650908074" duration="10285000" />
+      <workItem from="1655650908074" duration="10817000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1655666746889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655666746889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
