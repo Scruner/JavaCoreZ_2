@@ -24,17 +24,17 @@ public class ComparableAndComparatorTogetherSorted {
     list.add(employee3);
     list.add(employee4);
     list.add(employee5);
-    System.out.println("Перед сортировкой");
+    System.out.println("ГЏГҐГ°ГҐГ¤ Г±Г®Г°ГІГЁГ°Г®ГўГЄГ®Г©");
     for (Employee employeeComparator : list) {
       System.out.println(employeeComparator);
     }
-    //Когда мы используем и Comparable и Comparator, мы можем писать метод
-    // sort() так как нам нужно в данный момент, если достаточно натуральной
-    //сортировки (к примеру по id), то второй параметр не пишем. Если же нужна
-    //другая сортировка, добавляем второй параметр. Это удобно, чтобы каждый раз
-    //не переписывать код.
+   //РљРѕРіРґР° РјС‹ РёСЃРїРѕР»СЊР·СѓРµРј Рё Comparable Рё Comparator, РјС‹ РјРѕР¶РµРј РїРёСЃР°С‚СЊ РјРµС‚РѕРґ
+    // sort() С‚Р°Рє РєР°Рє РЅР°Рј РЅСѓР¶РЅРѕ РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚, РµСЃР»Рё РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РЅР°С‚СѓСЂР°Р»СЊРЅРѕР№
+    //СЃРѕСЂС‚РёСЂРѕРІРєРё (Рє РїСЂРёРјРµСЂСѓ РїРѕ id), С‚Рѕ РІС‚РѕСЂРѕР№ РїР°СЂР°РјРµС‚СЂ РЅРµ РїРёС€РµРј. Р•СЃР»Рё Р¶Рµ РЅСѓР¶РЅР°
+    //РґСЂСѓРіР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР°, РґРѕР±Р°РІР»СЏРµРј РІС‚РѕСЂРѕР№ РїР°СЂР°РјРµС‚СЂ. Р­С‚Рѕ СѓРґРѕР±РЅРѕ, С‡С‚РѕР±С‹ РєР°Р¶РґС‹Р№ СЂР°Р·
+    //РЅРµ РїРµСЂРµРїРёСЃС‹РІР°С‚СЊ РєРѕРґ.
     Collections.sort(list, new NameComparator());
-    System.out.println("После сортировки");
+    System.out.println("ГЏГ®Г±Г«ГҐ Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ");
     for (Employee employeeComparator : list) {
       System.out.println(employeeComparator);
     }
@@ -117,7 +117,7 @@ class IdComparator implements Comparator<Employee> {
 
 class NameComparator implements Comparator<Employee> {
 
-  //Здесь дополнительно проверяем, если имена равны, сортируем по фамилии
+  //Р—РґРµСЃСЊ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ РїСЂРѕРІРµСЂСЏРµРј, РµСЃР»Рё РёРјРµРЅР° СЂР°РІРЅС‹, СЃРѕСЂС‚РёСЂСѓРµРј РїРѕ С„Р°РјРёР»РёРё
   @Override
   public int compare(Employee employee1,
       Employee employee2) {
