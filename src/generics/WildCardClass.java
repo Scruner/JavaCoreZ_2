@@ -6,13 +6,13 @@ import java.util.List;
 public class WildCardClass {
 
   public static void main(String[] args) {
-    //вот так писать нельзя, правая и левая части должны быть одного типа
+    //РІРѕС‚ С‚Р°Рє РїРёСЃР°С‚СЊ РЅРµР»СЊР·СЏ, РїСЂР°РІР°СЏ Рё Р»РµРІР°СЏ С‡Р°СЃС‚Рё РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РѕРґРЅРѕРіРѕ С‚РёРїР°
 //    List<Number> list = new ArrayList<Integer>();
 
-    //а вот так можно. ? - это wildcard, означает что на этом месте может быть
-    //любой тип.
+    //Р° РІРѕС‚ С‚Р°Рє РјРѕР¶РЅРѕ. ? - СЌС‚Рѕ wildcard, РѕР·РЅР°С‡Р°РµС‚ С‡С‚Рѕ РЅР° СЌС‚РѕРј РјРµСЃС‚Рµ РјРѕР¶РµС‚ Р±С‹С‚СЊ
+    //Р»СЋР±РѕР№ С‚РёРї.
     List<?> list = new ArrayList<Integer>();
-    //Но использовать методы, которые меняют лист, здесь нельзя
+    //РќРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РјРµС‚РѕРґС‹, РєРѕС‚РѕСЂС‹Рµ РјРµРЅСЏСЋС‚ Р»РёСЃС‚, Р·РґРµСЃСЊ РЅРµР»СЊР·СЏ
 //    list.add("string");
 
     List<Double> list1 = new ArrayList<>();
@@ -27,11 +27,11 @@ public class WildCardClass {
     list2.add("all");
     showListInfo(list2);
 
-    //ограничение wildcards (bounded wildcards)
+    //РѕРіСЂР°РЅРёС‡РµРЅРёРµ wildcards (bounded wildcards)
     List<? extends Number> list3 = new ArrayList<Integer>();
 
-    //другой тип bounded wildcards. Здесь мы можем использовать тип для
-    // коллекций Number и всех его родителей, а это только класс Object
+    //РґСЂСѓРіРѕР№ С‚РёРї bounded wildcards. Р—РґРµСЃСЊ РјС‹ РјРѕР¶РµРј РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ С‚РёРї РґР»СЏ
+    // РєРѕР»Р»РµРєС†РёР№ Number Рё РІСЃРµС… РµРіРѕ СЂРѕРґРёС‚РµР»РµР№, Р° СЌС‚Рѕ С‚РѕР»СЊРєРѕ РєР»Р°СЃСЃ Object
     List<? super Number> list4 = new ArrayList<Object>();
 
     List<Double> ald = new ArrayList<>();
@@ -46,8 +46,8 @@ public class WildCardClass {
     ali.add(7);
     System.out.println(summ(ali));
 
-    //а String уже использовать нельзя, потому-что в методе summ стоит
-    // ограничение wildcard - типы коллекций могут быть только потомки Number
+    //Р° String СѓР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РЅРµР»СЊР·СЏ, РїРѕС‚РѕРјСѓ-С‡С‚Рѕ РІ РјРµС‚РѕРґРµ summ СЃС‚РѕРёС‚
+    // РѕРіСЂР°РЅРёС‡РµРЅРёРµ wildcard - С‚РёРїС‹ РєРѕР»Р»РµРєС†РёР№ РјРѕРіСѓС‚ Р±С‹С‚СЊ С‚РѕР»СЊРєРѕ РїРѕС‚РѕРјРєРё Number
 //    List<String> als = new ArrayList<>();
 //    als.add("string");
 //    als.add("privet");
@@ -55,10 +55,10 @@ public class WildCardClass {
 //    System.out.println(summ(als));
   }
 
-  //вот так wildcard может применяться. В этом примере создан метод, в который
-  //можно вставить лист любого типа, какой нам необходим сейчас.
+  //РІРѕС‚ С‚Р°Рє wildcard РјРѕР¶РµС‚ РїСЂРёРјРµРЅСЏС‚СЊСЃСЏ. Р’ СЌС‚РѕРј РїСЂРёРјРµСЂРµ СЃРѕР·РґР°РЅ РјРµС‚РѕРґ, РІ РєРѕС‚РѕСЂС‹Р№
+  //РјРѕР¶РЅРѕ РІСЃС‚Р°РІРёС‚СЊ Р»РёСЃС‚ Р»СЋР±РѕРіРѕ С‚РёРїР°, РєР°РєРѕР№ РЅР°Рј РЅРµРѕР±С…РѕРґРёРј СЃРµР№С‡Р°СЃ.
   static void showListInfo(List<?> list) {
-    System.out.println("Мой лист содержит следующие элементы: " + list);
+    System.out.println("РњРѕР№ Р»РёСЃС‚ СЃРѕРґРµСЂР¶РёС‚ СЃР»РµРґСѓСЋС‰РёРµ СЌР»РµРјРµРЅС‚С‹: " + list);
   }
 
   public static double summ(List<? extends Number> arrayList) {
