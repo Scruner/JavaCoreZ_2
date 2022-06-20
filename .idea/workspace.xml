@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit UTF-8">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit windows-1251">
+      <change afterPath="$PROJECT_DIR$/src/generics/WildCardClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/Schoolar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/StartGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/game/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comparation_sorted/ComparableSortedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparation_sorted/ComparableSortedClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,49 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ComparableSortedClass">
+}</component>
+  <component name="RunManager" selected="Application.StartGame">
     <configuration name="ComparableSortedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparation_sorted.ComparableSortedClass" />
       <module name="JavaCoreZ_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comparation_sorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.ParameterizedClass" />
-      <module name="JavaCoreZ_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.ParameterizedClass2" />
-      <module name="JavaCoreZ_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.game.StartGame" />
+      <module name="JavaCoreZ_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeErasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.TypeErasure" />
       <module name="JavaCoreZ_2" />
@@ -110,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WildCardClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.WildCardClass" />
+      <module name="JavaCoreZ_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartGame" />
+        <item itemvalue="Application.WildCardClass" />
         <item itemvalue="Application.ComparableSortedClass" />
         <item itemvalue="Application.TypeErasure" />
         <item itemvalue="Application.ParameterizedMethod" />
-        <item itemvalue="Application.ParameterizedClass2" />
-        <item itemvalue="Application.ParameterizedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655580063106</updated>
       <workItem from="1655580065017" duration="2084000" />
-      <workItem from="1655650908074" duration="11111000" />
+      <workItem from="1655650908074" duration="11412000" />
+      <workItem from="1655744027442" duration="5374000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655666746889</created>
@@ -145,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655667124683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit windows-1251">
+      <created>1655667444430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655667444430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit UTF-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit UTF-8" />
+    <MESSAGE value="first commit windows-1251" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit windows-1251" />
   </component>
 </project>
