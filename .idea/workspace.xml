@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="first commit wildcards" />
+    <list default="true" id="6aaff3be-6a48-4a31-8d51-fb851fe19b2e" name="Changes" comment="add dir collections">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListMethods2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +43,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListEx1">
+  <component name="RunManager" selected="Application.ArrayListMethods2">
     <configuration name="ArrayListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.ArrayListEx1" />
       <module name="JavaCoreZ_2" />
@@ -55,12 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableSortedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparation_sorted.ComparableSortedClass" />
+    <configuration name="ArrayListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ArrayListMethods" />
       <module name="JavaCoreZ_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparation_sorted.*" />
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ArrayListMethods2" />
+      <module name="JavaCoreZ_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,19 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generics.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeErasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.TypeErasure" />
-      <module name="JavaCoreZ_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListMethods2" />
+        <item itemvalue="Application.ArrayListMethods" />
         <item itemvalue="Application.ArrayListEx1" />
         <item itemvalue="Application.StartGame" />
         <item itemvalue="Application.WildCardClass" />
-        <item itemvalue="Application.ComparableSortedClass" />
-        <item itemvalue="Application.TypeErasure" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +133,8 @@
       <workItem from="1655580065017" duration="2084000" />
       <workItem from="1655650908074" duration="11412000" />
       <workItem from="1655744027442" duration="5681000" />
-      <workItem from="1655799758797" duration="2532000" />
+      <workItem from="1655799758797" duration="3829000" />
+      <workItem from="1655892563238" duration="5618000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655666746889</created>
@@ -158,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655750770563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add dir collections">
+      <created>1655850681703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655850681703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +193,7 @@
     <MESSAGE value="first commit UTF-8" />
     <MESSAGE value="first commit windows-1251" />
     <MESSAGE value="first commit wildcards" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit wildcards" />
+    <MESSAGE value="add dir collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dir collections" />
   </component>
 </project>
