@@ -7,11 +7,12 @@ public class ArrayListMethods {
 
   public static void main(String[] args) {
     List<String> arrayList = new ArrayList<>();
+    
     //method add()
     arrayList.add("Alex");
     arrayList.add("Stiv");
     arrayList.add("Rob");
-    //можно написать добавление таким обрзаом
+    //РјРѕР¶РЅРѕ РЅР°РїРёСЃР°С‚СЊ РґРѕР±Р°РІР»РµРЅРёРµ С‚Р°РєРёРј РѕР±СЂР°Р·РѕРј
     arrayList.add(1, "Michael");
     for (String str : arrayList) {
       System.out.println(str);
@@ -25,7 +26,7 @@ public class ArrayListMethods {
     System.out.println("********************");
 
     //method set()
-    //в этом примере мы вставляем Rob на позицию 1
+    //РІ СЌС‚РѕРј РїСЂРёРјРµСЂРµ РјС‹ РІСЃС‚Р°РІР»СЏРµРј Rob РЅР° РїРѕР·РёС†РёСЋ 1
     arrayList.set(1, "Rob");
     for (String s : arrayList) {
       System.out.println(s);
@@ -33,10 +34,9 @@ public class ArrayListMethods {
     System.out.println("********************");
 
     //method remove()
-    //после удаления все элементы смещаются влево
+    //РїРѕСЃР»Рµ СѓРґР°Р»РµРЅРёСЏ РІСЃРµ СЌР»РµРјРµРЅС‚С‹ СЃРјРµС‰Р°СЋС‚СЃСЏ РІР»РµРІРѕ
     arrayList.remove(0);
     arrayList.remove("Rob");
-
 
     List<String> arrayLis2 = new ArrayList<>(arrayList);
     System.out.println(arrayLis2);
